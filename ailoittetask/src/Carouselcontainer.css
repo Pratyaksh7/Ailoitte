@@ -1,0 +1,7 @@
+.sr-only{
+    display: none;
+}
+
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: transparent;
+}

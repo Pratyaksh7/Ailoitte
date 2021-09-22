@@ -1,0 +1,104 @@
+.navbar-container {
+    display: block;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    z-index: 4;
+    padding-right: 40px;
+    padding-left: 40px;
+    opacity: 0.9;
+}
+
+.navbar-container .navbar {
+    display: flex;
+    max-width: 1680px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar a {
+    color: #fff;
+    margin-bottom: 0;
+    display: inline-block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 21px;
+    line-height: 24px;
+    margin-right: 24px;
+    background-color: transparent;
+    border:0;
+    cursor: pointer;
+    width: 5px;
+}
+
+.navbar ul {
+    display: flex;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    overflow: visible;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    flex:0.4;
+}
+
+.navbar ul li {
+    position: relative;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar .auth-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .auth-buttons a {
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    display: inline-block;
+    font-weight: 500;
+    text-decoration: none; 
+    white-space: nowrap;
+    margin-right: 16px;
+    background-color: transparent;
+    color:#fff;   
+    font-size: 14px;
+    width: auto;
+} 
+
+.navbar .auth-buttons .active {
+    border-radius: 100px;
+    background-color: #007afc;
+    position: relative;
+    padding: 8px 12px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    border: 0;
+    width: auto;
+}
+
+@media only screen and (max-width:950px) {
+
+    .navbar-container .navbar {
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+}

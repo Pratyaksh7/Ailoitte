@@ -1,0 +1,77 @@
+.getStarted-container{
+    position: relative;
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cta {
+    background-color: #161A1D;
+    display: flex;
+    padding: 80px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.cta h2{
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 16px;
+    margin-top: 0;
+    position: relative;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    background-color: transparent;
+    text-transform:capitalize;
+}
+
+.cta p {
+    color: #A0AABA;
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 800px;
+    margin-bottom: 24px;
+    position: relative;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    margin-top: 0;
+    background-color: transparent;
+}
+
+.cta-buttons{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: transparent;
+    width: 300px;
+}
+
+.cta-buttons button {
+    position: relative;
+    max-width: 150px;
+    padding: 12px 20px;
+    border-radius: 100px;
+    background-color: #007afc;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.cta-buttons .sales{
+    box-shadow: inset 0px 0px 0px 1px #566171;
+    background-color: transparent;
+}
