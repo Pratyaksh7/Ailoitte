@@ -1,0 +1,50 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto ;
+    margin-right:auto;
+    background-color: #e8e7e6;
+}
+.segment1 {
+    /* padding-left:10px ; */
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.segment1 p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.segment2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+
+
+}
+
+.segment2 .section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+}
+
+.segment2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.text {
+    margin-left:18px;
+}
+
+.text:hover {
+    color: palevioletred;
+}
+
